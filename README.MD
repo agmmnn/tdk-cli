@@ -1,3 +1,5 @@
+![ss](https://user-images.githubusercontent.com/16024979/135759500-b0fd7d14-6317-4f5f-a9eb-89aebb65b6cc.png)
+
 # tdk-cli
 
 <div align="center">
@@ -7,8 +9,8 @@
 <img alt="PyPI" src="https://img.shields.io/pypi/v/tdk-cli"></a>
 
 Command-line tool for [TDK](https://en.wikipedia.org/wiki/Turkish_Language_Association) Dictionary, [sozluk.gov.tr](https://sozluk.gov.tr/) with rich output.
-</div>
 
+</div>
 
 ```
 pip install tdk-cli
@@ -16,7 +18,4 @@ pip install tdk-cli
 
 ```
 tdk <word>
-
-tdk <word> -p
-# plain text output
 ```
