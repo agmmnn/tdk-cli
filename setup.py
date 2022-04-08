@@ -8,12 +8,12 @@ with open("requirements.txt", "r") as file:
     requires = [line.strip() for line in file.readlines()]
 
 VERSION = m.__version__
-DESCRIPTION = "Command-line tool for TDK Dictionary (sozluk.gov.tr) with rich output."
+DESCRIPTION = "Command-line tool for TDK Dictionary, sozluk.gov.tr with rich output."
 
 setup(
     name="tdk-cli",
     version=VERSION,
-    url="https://github.com/agmmnn/turengcli",
+    url="https://github.com/agmmnn/tdk-cli",
     description=DESCRIPTION,
     long_description=long_description,
     long_description_content_type="text/markdown",
